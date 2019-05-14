@@ -51,6 +51,8 @@ class PostTemplateDetails extends React.Component {
         <p>No comments yet.</p>
       )
 
+    // https://dev.staticman.net/v3/entry/github/kellenmace/staticman-tutorial/master/comments
+
     const commentsBlock = (
       <div>
         <hr />
@@ -59,7 +61,7 @@ class PostTemplateDetails extends React.Component {
         <h3>Add a comment</h3>
         <form
           method="POST"
-          action="https://api.staticman.net/v2/entry/superlumen/staticman-tutorial/master/comments"
+          action="https://dev.staticman.net/v3/entry/github/kellenmace/staticman-tutorial/master/comments"
         >
           <input
             name="options[slug]"
